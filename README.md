@@ -30,9 +30,9 @@ func newSample() gopool.Job {
 }
 
 func (t *sample) Do() {
-	fmt.Println("Task started at:", time.Now().Local().Format("2006-01-02 15:04:05"))
+	fmt.Println("Task started at:", time.Now().Format("2006-01-02 15:04:05"))
 	t.counter += 1
-	fmt.Println("Task finished at:", time.Now().Local().Format("2006-01-02 15:04:05"))
+	fmt.Println("Task finished at:", time.Now().Format("2006-01-02 15:04:05"))
 }
 
 func main() {
