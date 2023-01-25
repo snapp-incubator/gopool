@@ -5,7 +5,7 @@ A Golang goroutine pool with graceful shutdown.
 
 To install this package, you need to setup your Go workspace. The simplest way to install the library is to run:
 ```
-$ go get github.com/snapp-incubator/gopool
+go get github.com/snapp-incubator/gopool
 ```
 
 ## Example
